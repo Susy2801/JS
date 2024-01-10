@@ -5,7 +5,7 @@ function submit() {
 }
 
 function checkSignup() {
-  var defaultPass = "Bunny";
+  var defaultPass = "27122021";
   var defaultUser = "Susy";
   var inputUser = document.getElementById("userName");
   var inputPass = document.getElementById("passWord");
