@@ -20,16 +20,16 @@ function checkSignup() {
     document.getElementById("userName").value = "";
     setTimeout(function () {
       noti.innerHTML = "";
-    }, 1000);
+    }, 2000);
 
     setTimeout(function () {
       var loadingBox = document.getElementById("loadBox");
       loadingBox.style.display = "block";
     }, 4000);
 
-    // setTimeout(function () {
-    //   window.location.href = "page2.html";
-    // }, 3000);
+    setTimeout(function () {
+      window.location.href = "page2.html";
+    }, 3000);
   } else {
     noti.innerHTML = "Sai mật khẩu!";
     document.getElementById("passWord").value = "";
