@@ -35,4 +35,8 @@ function checkSignup() {
     document.getElementById("passWord").value = "";
     document.getElementById("userName").value = "";
   }
+
+  setTimeout(function () {
+    noti.innerHTML = "";
+  }, 2000);
 }

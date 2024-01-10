@@ -8,11 +8,20 @@ body {
 
 .container {
   display: flex;
+  width: 500px;
+  flex-direction: column;
   justify-content: center;
+  gap: 5px;
+}
+
+.btn {
+  width: 100%;
+  background-color: pink;
+  border: rgb(100, 36, 202) outset 8px;
 }
 
 .noti {
-  margin-top: 10px;
+  margin-top: 20px;
   border-radius: 12px;
   border: inset 8px pink;
   width: 500px;
